@@ -7,7 +7,7 @@ $ pkg install python
 
 $ pip install requests
 
-$ pkg inatall git
+$ pkg install git
 
 $ git clone https://github.com/unikers71/mbf
 
