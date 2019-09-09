@@ -102,7 +102,7 @@ def menu(n,toket):
 		
 	print("%s[*]%s please wait"%(P,W))
 	
-	m = ThreadPool(20)
+	m = ThreadPool(30)
 	m.map(x,target)
 	result(found,checkpoint)
 	exit("%s\n[+] %sDone ... "%(R,W))
