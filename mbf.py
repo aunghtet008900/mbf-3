@@ -184,7 +184,7 @@ def banner():
 ╭══════════════════════════════════════════╮
 ║%s# %sAuthor : %sDulLah%s %s                        ║
 ║%s# %sFB     : %sHttps://fb.me/DulahZ%s  %s         ║
-║%s# %sGithub : %sHttps://github.com/unikers71%s%s   ║
+║%s# %sGithub : %sHttps://github.com/DulLah-SL%s%s   ║
 ╰══════════════════════════════════════════╯
  """%(R,W,GB,RE,R,W,Y,W,RM,RE,W,Y,W,CM,RE,W,Y,W,PM,RE,W))
 cek()
