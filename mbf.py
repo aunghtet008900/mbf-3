@@ -92,7 +92,7 @@ def menu(n,toket):
 		except KeyError:
 			exit("%s[!]%s ups sorry group not found !!"%(R,W))
 		print("%s[*]%s from : %s"%(P,W,e))
-		for y in s.get(url.format(idg+"/members?fields=name,id&limit=999999&access_token=%s"%(toket))).json()["data"]:
+		for y in s.get(url.format(idg+"/members?fields=name,id&limit=5000&access_token=%s"%(toket))).json()["data"]:
 			target.append(y["id"])
 	elif unikers in ["0"]:
 		os.system("rm -rf cookie")
